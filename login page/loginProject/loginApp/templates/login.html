@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>login here</h2>
+
+<form method='POST'>
+    {% csrf_token %}
+    <p>successfully registered please login here</p>
+
+  <label for="username">username:</label><br>
+  <input type="text" id="username" name="username" placeholder='enter username'><br>
+  
+  <label for="password">password:</label><br>
+  <input type="password" id="password" name="password" placeholder="enter password"><br><br>
+  
+  <input type="Submit" value="login">
+</form> 
+
+</body>
+</html>
